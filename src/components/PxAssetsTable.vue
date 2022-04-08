@@ -8,8 +8,9 @@
         </th>
         <th>Nombre</th>
         <th>Precio</th>
-        <th>Cap. de Mercado</th>
+       
         <th>Variación 24hs</th>
+         <th>Cap. de Mercado</th>
         <td class="hidden sm:block">
           <input
             class="bg-gray-100 focus:outline-none border-b border-gray-400 py-2 px-4 block w-full appearance-none leading-normal"
@@ -47,8 +48,9 @@
           >
           <small class="ml-1 text-gray-500">{{ a.symbol }} </small>
         </td>
+        
         <td>${{ new Intl.NumberFormat("es-CO").format(a.priceUsd) }}</td>
-        <td>{{ new Intl.NumberFormat("es-CO").format(a.marketCapUsd) }}</td>
+        
         <td
           :class="
             a.changePercent24Hr.includes('-')
@@ -58,6 +60,7 @@
         >
           {{ Math.round(a.changePercent24Hr * 100) / 100 }}
         </td>
+        <td>{{ new Intl.NumberFormat("es-CO").format(a.marketCapUsd) }}</td>
         <td class="hidden sm:block">
           <px-button @click="goToCoin(a.id)"> <span> Detalle </span> </px-button>
         </td>
