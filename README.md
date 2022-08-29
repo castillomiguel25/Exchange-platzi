@@ -1,5 +1,12 @@
 🧑‍💻 Autor Miguel Castillo
 
+👀 Url del Portafolio personal  🌍
+
+https://miguelcastillo97.netlify.app/
+
+🔗Url de la página 🧑‍💻
+https://tuexchangecrypto.netlify.app/
+
 🔗 Descripción 🗒️
 App donde puedes visualizar la 30 criptomonedas
 más famosas del mercado, encontrarás 
@@ -18,22 +25,22 @@ real cada 24 horas, Gracias a la implementación
 .vue-spinner
 
 
-## Project setup
+🛠️ Project setup
 ```
-npm install
+🔽 npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+🌍 npm run serve 💻
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+🧑‍💻 npm run build 
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+🛠️ npm run lint
 ```
