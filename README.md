@@ -1,4 +1,13 @@
-# hello-world
+🧑‍💻 Autor Miguel Castillo
+
+🔗 Descripción 🗒️
+App donde puedes visualizar la 30 criptomonedas
+más famosas del mercado, encontrarás 
+las mejores ofertas del mercado.
+La App Se actualiza al tiempo 
+real cada 24 horas, Gracias a la implementación
+ de la API de CoinCAP📖
+
 
 ## Project setup
 ```
@@ -19,6 +28,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
