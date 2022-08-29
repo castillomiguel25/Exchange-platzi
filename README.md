@@ -8,6 +8,15 @@ La App Se actualiza al tiempo
 real cada 24 horas, Gracias a la implementación
  de la API de CoinCAP📖
 
+🖥️Herramientas utilizadas 🛠️🛠️
+.chart.js
+.tailwindcss
+.vue.js
+.vue-chartjs
+.vue-chartkick
+.vue-router
+.vue-spinner
+
 
 ## Project setup
 ```
